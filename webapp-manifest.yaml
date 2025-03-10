@@ -107,7 +107,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: obusorezekiel/webapp:latest
+        image: michs7092/webapp:latest
         imagePullPolicy: Always
         ports:
           - containerPort: 5000 
