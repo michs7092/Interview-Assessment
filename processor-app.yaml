@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: csv-processor
-        image: obusorezekiel/csv-processor:latest  # Build and push to your registry
+        image: michs7092/csv-processor:latest  # Build and push to your registry
         imagePullPolicy: Always
         env:
         - name: POSTGRES_DB
